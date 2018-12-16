@@ -10,8 +10,8 @@
             text-align: center;
         }
         .auto-style2 {
-            width: 375px;
-            height: 203px;
+            width: 341px;
+            height: 210px;
         }
     </style>
 </head>
@@ -23,7 +23,7 @@
                 Welcome to Willairways Virtual<o:p></o:p></p>
         </div>
             <p class="auto-style1">
-                <img alt="" class="auto-style2" src="file:///C:/VisStudioProj/wav%20web/web%202.png" /></p>
+                <img alt="" class="auto-style2" longdesc="http://localhost:63303/Create an Account.aspx" src="file:///C:/VisStudioProj/wav%20web/web%202.png" /></p>
             <p class="auto-style1">
                 <asp:Button ID="Button1" runat="server" Text="login" Width="177px" />
                 <asp:Button ID="Button2" runat="server" Text="Create an Account" Width="158px" />
