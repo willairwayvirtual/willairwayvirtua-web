@@ -10,8 +10,12 @@
             text-align: center;
         }
         .auto-style2 {
-            width: 341px;
-            height: 210px;
+            text-align: center;
+            font-size: xx-large;
+            text-decoration: underline;
+        }
+        .auto-style3 {
+            font-size: xx-large;
         }
     </style>
 </head>
@@ -21,15 +25,22 @@
         <div class="auto-style1">
             <p class="auto-style1">
                 Welcome to Willairways Virtual<o:p></o:p></p>
-        </div>
-            <p class="auto-style1">
-                <img alt="" class="auto-style2" longdesc="http://localhost:63303/Create an Account.aspx" src="file:///C:/VisStudioProj/wav%20web/web%202.png" /></p>
-            <p class="auto-style1">
-                <asp:Button ID="Button1" runat="server" Text="login" Width="177px" />
-                <asp:Button ID="Button2" runat="server" Text="Create an Account" Width="158px" />
-                <asp:Button ID="Button3" runat="server" Text="Download" Width="198px" />
+            <p class="auto-style2">
+                <strong>messages Ceo fom </strong>
             </p>
         </div>
+        </div>
+        <p class="auto-style1">
+            &nbsp;</p>
+        <p class="auto-style1">
+            &nbsp;</p>
+        <p class="auto-style1">
+            <asp:Button ID="Button1" runat="server" CssClass="auto-style3" Text="Login" Width="177px" />
+            <asp:Button ID="Button2" runat="server" CssClass="auto-style3" Text="Create an Account" Width="305px" />
+            <asp:Button ID="Button3" runat="server" CssClass="auto-style3" OnClick="Button3_Click" Text="Download" Width="198px" />
+        </p>
+        <p class="auto-style1">
+            &nbsp;</p>
     </form>
 </body>
 </html>
